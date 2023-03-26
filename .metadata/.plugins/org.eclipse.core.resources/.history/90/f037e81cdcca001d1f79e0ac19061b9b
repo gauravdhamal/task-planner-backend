@@ -1,0 +1,5 @@
+package com.task.planner.configurations;
+
+public class WebServerConfig {
+
+}

@@ -1,0 +1,5 @@
+package com.task.planner.exceptions;
+
+public class NoRecordFoundException extends Exception {
+
+}

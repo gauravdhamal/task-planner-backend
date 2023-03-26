@@ -1,0 +1,16 @@
+package com.task.planner.exceptions;
+
+@SuppressWarnings("serial")
+public class NoRecordFoundException extends Exception {
+
+	/**
+	 * No argument constructor.
+	 */
+	public NoRecordFoundException() {
+	}
+
+	public NoRecordFoundException(String message) {
+		super(message);
+	}
+
+}

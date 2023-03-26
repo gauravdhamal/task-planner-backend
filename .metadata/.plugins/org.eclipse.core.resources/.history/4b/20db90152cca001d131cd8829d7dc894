@@ -1,0 +1,27 @@
+package com.task.planner.services;
+
+import com.task.planner.dtos.TaskDTO;
+import com.task.planner.exceptions.NoRecordFoundException;
+
+public interface TaskService {
+
+	/**
+	 * 
+	 * @param taskDTO : Object of TaskDTO contains all details of task.
+	 * @return : TaskDTO object that has been inserted into the database.
+	 */
+	public TaskDTO createTask(TaskDTO taskDTO);
+
+	/**
+	 * 
+	 * @param taskId : 
+	 * @return : TaskDTO object that has been found into the database.
+	 * @throws NoRecordFoundException : If Task object does not present then NoRecordFoundException exception will thrown at runtime.
+	 */
+	public TaskDTO getTaskById(Integer taskId) throws NoRecordFoundException;
+
+	public TaskDTO updateTask(Integer taskId, TaskDTO taskDTO) throws NoRecordFoundException;
+
+	public String deleteTask(Integer taskId) throws NoRecordFoundException;
+
+}

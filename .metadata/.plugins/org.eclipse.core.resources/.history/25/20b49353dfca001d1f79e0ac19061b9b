@@ -1,0 +1,6 @@
+server:
+  ssl:
+    key-alias: spring-https
+    key-store: classpath:masai.JKS
+    key-store-type: JKS
+    key-password: password

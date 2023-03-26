@@ -1,0 +1,14 @@
+package com.task.planner.services;
+
+import com.task.planner.dtos.TaskDTO;
+import com.task.planner.exceptions.NoRecordFoundException;
+
+public interface TaskService {
+
+	public TaskDTO createTask(TaskDTO taskDTO);
+
+	public TaskDTO getTaskById(Integer taskId) throws NoRecordFoundException;
+
+	public TaskDTO updateTask(Integer taskId, TaskDTO taskDTO) throws NoRecordFoundException;
+
+}

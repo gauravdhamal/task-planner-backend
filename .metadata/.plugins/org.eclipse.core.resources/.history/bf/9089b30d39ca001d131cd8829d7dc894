@@ -1,0 +1,18 @@
+package com.task.planner.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.task.planner.services.TaskService;
+
+@RestController
+@RequestMapping("/sprint")
+public class SprintController {
+
+	@Autowired
+	private TaskService taskService;
+	
+	
+	
+}

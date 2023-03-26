@@ -1,0 +1,5 @@
+package com.task.planner.repositories;
+
+public interface UserRepository {
+
+}

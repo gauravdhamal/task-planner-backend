@@ -1,0 +1,5 @@
+package com.task.planner.dtos;
+
+public class TaskDTO {
+
+}

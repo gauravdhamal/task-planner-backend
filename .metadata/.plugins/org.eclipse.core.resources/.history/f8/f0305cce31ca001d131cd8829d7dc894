@@ -1,0 +1,5 @@
+package com.task.planner.controllers;
+
+public class UserController {
+
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=task-planner-backend/F:\/Masai School\/Unit-8 Placements\/STS 4 Application New\/sts-4.18.0.RELEASE\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/maven.pomderived=/true=/&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1675512202000"/>
+    <typeInfo handle="=task-planner-backend/C:\/Users\/Gaurav\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.0.4\/spring-data-jpa-3.0.4.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.0.4=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1679634982016"/>
+    <typeInfo handle="=task-planner-backend/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.task.planner.services{UserService.java[UserService" modifiers="513" timestamp="1679717044419"/>
+    <typeInfo handle="=task-planner-backend/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.task.planner.services{TaskService.java[TaskService" modifiers="513" timestamp="1679720654475"/>
+    <typeInfo handle="=task-planner-backend/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.task.planner.services{SprintService.java[SprintService" modifiers="513" timestamp="1679681130849"/>
+</typeInfoHistroy>
